@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#logo
+{
+position: relative;    
+padding: 20px;
+}
+#logo:hover
+{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+#viewpagehome
+{
+    background: url("background.jpg");
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+#designImage
+{
+   position: absolute;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+
+li
+{
+    position: relative;
+
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    color: grey; 
+  
+    display: inline-block;
+ 
+}
+li:hover
+{
+    color: black;
+}
+ul {
+    list-style: none;
+  }
+  ul > :first-child {
+ 
+    margin-left: 300px;
+}
+#listbox
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    
+}
+#registerBtn
+{
+margin-left: auto;
+margin-top: 40px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    color: orangered;
+    background-color: transparent;
+    border: 2px;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 6px;
+    width: 100px 
+}
+
+#registerBtn:hover
+{
+    background: orangered;
+    color: white;
+}
+#howToBuild
+{
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    height: 24px;
+    width: 500px; 
+    margin: 0 auto;
+
+}
+#linkedin
+{
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    left: 0px;
+    top: -20px;
+    display: inline-block;
+    font-size: 80px;
+    height: 24px;
+    width: 500px; 
+    margin: 0 auto;
+
+}
+#Network
+{
+    font-size: 12px;
+    margin-bottom: 100px;
+    display: inline-block;
+    color: tomato;
+}
+#designImage
+{
+    opacity: .2;
+
+}
+@media only screen and (max-width: 600px) {
+    ul > :first-child {
+ 
+        margin-left: 0px;
+    }
+    #registerBtn
+    {
+        visibility: hidden;
+    }
+    #howToBuild
+{
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight:600; 
+    left: -70px;
+    height: 24px;
+    width: 500px; 
+    margin: 0 auto;
+
+}
+    #linkedin
+    {
+        font-family: 'Secular One', sans-serif;
+        position: relative;
+        left: -102px;
+        top: -20px;
+        display: inline-block;
+        font-size: 40px;
+        height: 24px;
+        width: 500px; 
+        margin: 0 auto;
+    
+    }
+}
